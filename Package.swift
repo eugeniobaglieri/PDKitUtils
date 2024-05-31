@@ -34,9 +34,6 @@ let package = Package(
     products: [
         .library(name: "PDKitUtils", targets: ["PDKitUtils"])
     ],
-    dependencies: [
-        .package(name: "PlaydateKit", path: "../PlaydateKit"),
-    ],
     targets: [
         .target(
             name: "PDKitUtils",
